@@ -1,0 +1,73 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	/* background-color:#000; */
+	font-family: 'Orbitron', sans-serif;
+}
+
+.header{
+	height:100vh;
+	background-color:#000;
+	color:blue;
+	position:relative;
+}
+.DigitalClock{
+	position:absolute;
+	top:50%;
+	left:50%;	
+	transform:translate(-50%,-50%);
+}
+#DigiClock{
+	font-size:70px;
+	/* text-shadow:4px 3px 10px blue; */
+	text-shadow:4px 3px 10px #17d4fe;
+}
+
+
+.Digiheader{
+	height:100vh;
+	/* background-color:#000; */
+	background:linear-gradient(70deg,#8A2BE2,#A52A2A,#8B008B);
+	color:#000;
+	position:relative;
+}
+.digiclock{
+	position:absolute;
+	top:50%;
+	left:50%;	
+	transform:translate(-50%,-50%);
+}
+#Clock{
+	font-size:65px;
+	/* text-shadow:4px 3px 10px blue; */
+	text-shadow:4px 3px 10px #17d4fe;
+	/* border:5px solid #DC143C; */
+	border:5px solid #000;
+	border-radius:10px;
+	padding:4px 4px;
+}
+
+
+.Digiclockheader{
+	height:100vh;
+	/* background-color:#000; */
+	/* color:red; */
+	position:relative;
+	background:linear-gradient(#483D8B,#DAA520,#F08080);
+}
+.digiclock2{
+	position:absolute;
+	top:50%;
+	left:50%;	
+	transform:translate(-50%,-50%);
+}
+#ClockDigi{
+	font-size:65px;
+	/* text-shadow:4px 3px 10px blue; */
+	background:linear-gradient(#DC143C,#6495ED,#8B008B);
+	border-radius:7px;
+	border:3px solid #DC143C;
+}
+
+
